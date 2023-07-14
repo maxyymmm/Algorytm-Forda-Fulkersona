@@ -26,10 +26,14 @@ Algorytm działa w następujący sposób:<br />
 5) Aktualizuje przepływ wzdłuż ścieżki, odejmując przepływ od krawędzi przekierowanych i dodając przepływ do krawędzi zwrotnych.<br />
 6) Aktualizuje maksymalny przepływ, dodając przepływ bieżącej ścieżki.<br />
 7) Przechowuje bieżącą ścieżkę i jej maksymalny przepływ w słowniku **paths**.<br />
-8) Kroki 2-7 są powtarzane, dopóki nie można znaleźć kolejnej ścieżki powiększającej.<br />
-<br />
-<br />
+8) Kroki 2-7 są powtarzane, dopóki nie można znaleźć ****kolejnej**** ścieżki powiększającej.<br />
+
+
+
+
 W podanym przykładzie algorytm jest zastosowany do grafu **G** z odpowiadającymi mu pojemnościami krawędzi **weight**, rozpoczynając od wierzchołka źródłowego **S** i kończąc na wierzchołku ujściowym **T**. Maksymalny przepływ oraz ścieżki wraz z ich maksymalnym przepływem są wyświetlane.
-![f1](https://github.com/maxyymmm/Algorytm-Forda-Fulkersona/assets/120425774/02d1a76f-9442-417e-bfc6-991f15f12a00)
-![f2](https://github.com/maxyymmm/Algorytm-Forda-Fulkersona/assets/120425774/52bf4f9b-0ceb-4e38-8e3c-82fd43264e1a)
+  ![f1](https://github.com/maxyymmm/Algorytm-Forda-Fulkersona/assets/120425774/d55f8655-6cff-4622-8354-44d966195d2b)
+  ![f2](https://github.com/maxyymmm/Algorytm-Forda-Fulkersona/assets/120425774/ff3bbb94-e6e5-4d04-964d-c052b660219a)
+
+
 
